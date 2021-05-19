@@ -1,0 +1,6 @@
+.SidebarChat {
+  display: flex;
+  padding: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid white;
+}
