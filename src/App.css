@@ -1,3 +1,10 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Poppins";
+}
+
 .app {
   height: 100vh;
   display: flex;
