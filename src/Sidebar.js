@@ -46,7 +46,7 @@ export default function Sidebar() {
       <div className="sidebar_search">
         <div className="sidebar_searchcontainer">
           <SearchOutlined />
-          <input placeholder="Search or start new chat" type="text" />
+          <input placeholder="Search or New chat" type="text" />
         </div>
       </div>
       <div className="sidebar_chat">

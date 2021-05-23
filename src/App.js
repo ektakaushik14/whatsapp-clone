@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { useState } from "react";
 import Login from "./Login";
 import { useStateValue } from "./StateProvider";
+import contactimg from "./img2.svg";
 function App() {
   const [{ user }, dispatch] = useStateValue();
   return (
@@ -20,7 +21,9 @@ function App() {
                 <Chat />
               </Route>
               <Route path="/">
-                <h1>Home screen</h1>
+                <div className="homescreenimg">
+                  <img src={contactimg} alt="" />
+                </div>
               </Route>
             </Switch>
           </Router>
